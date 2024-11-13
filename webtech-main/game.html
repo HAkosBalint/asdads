@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aszteroidák</title>
+    <script defer src="js/game.js"></script>
+    <link rel="stylesheet" href="css/game.css">    
+</head>
+<body>
+    <a href="index.html"><img class="X" src="img/X.png"></a>
+    
+    <div class="card">
+        
+        <img class="background" src="img/space.jpg">
+        <img id="ship" style="display: none;" src="img/ship.png">
+        <img id="rock1" style="display: none;" src="img/rock.png">
+        <img id="bullet" style="display: none;" src="img/bullet.png">
+        
+        <canvas class="game" width="800" height="600" id="canvas"></canvas>
+        <button id="start_stop" onclick="start_stop()">Start</button>
+        
+    </div>
+       
+    
+</body>
+</html>
